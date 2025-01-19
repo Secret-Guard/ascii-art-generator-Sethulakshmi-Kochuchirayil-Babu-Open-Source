@@ -2,10 +2,19 @@
 A console-based ASCII art generator
 
 
-
 # ASCII Art Generator
 
-This Python project converts text into ASCII art using the pyfiglet library.
+This is a simple Python project that converts user-input text into ASCII art using the `pyfiglet` library.
 
-## How to Use
-Run the script and enter any text to see it converted into ASCII art.
+## Features
+
+- Converts text to ASCII art.
+- Easy-to-use command-line interface.
+- Written in Python.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Secret-Guard/ascii-art-generator-Sethulakshmi-Kochuchirayil-Babu-Open-Source.git
