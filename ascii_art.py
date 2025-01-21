@@ -1,3 +1,5 @@
+import pyfiglet
+
 def generate_ascii_art(text):
     try:
         # Fixed Issue 1: Added Argument to figlet_format
@@ -7,7 +9,7 @@ def generate_ascii_art(text):
         # Fixed Issue 4: Error Handling for pyfiglet
         return f"Error: {str(e)}"
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     while True:
         user_input = input("Enter text to convert to ASCII Art (or type 'exit' to quit): ")
         
@@ -21,12 +23,3 @@ if _name_ == "_main_":
             break
 
         print(generate_ascii_art(user_input))
-
-    ascii_art = pyfiglet.figlet_format()  # No argument is passed
-    return ascii_art
-
-if __name__ == "__main__":
-    user_input = input("Enter text to convert to ASCII Art: ")
-    
-   
-    print(generate_ascii_art(user_input))
