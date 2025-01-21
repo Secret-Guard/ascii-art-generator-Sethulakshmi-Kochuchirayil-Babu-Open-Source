@@ -1,5 +1,4 @@
 def generate_ascii_art(text):
-<<<<<<< bug-yasar
     try:
         # Fixed Issue 1: Added Argument to figlet_format
         ascii_art = pyfiglet.figlet_format(text)
@@ -22,7 +21,7 @@ if _name_ == "_main_":
             break
 
         print(generate_ascii_art(user_input))
-=======
+
     ascii_art = pyfiglet.figlet_format()  # No argument is passed
     return ascii_art
 
