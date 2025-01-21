@@ -9,6 +9,7 @@ def generate_ascii_art(text):
         # Fixed Issue 4: Error Handling for pyfiglet
         return f"Error: {str(e)}"
 
+
 if __name__ == "__main__":
     while True:
         user_input = input("Enter text to convert to ASCII Art (or type 'exit' to quit): ")
@@ -22,4 +23,5 @@ if __name__ == "__main__":
             print("Exiting the program.")
             break
 
+  
         print(generate_ascii_art(user_input))
